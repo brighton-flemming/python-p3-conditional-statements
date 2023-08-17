@@ -20,6 +20,10 @@ def hows_the_weather(temperature):
       return "It's too dang hot out there!"
   else:
       return "It's perfect out there!"
+  
+hows_the_weather(56)
+hows_the_weather(90)
+hows_the_weather(36)
 
 
 
