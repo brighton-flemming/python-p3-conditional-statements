@@ -28,8 +28,19 @@ hows_the_weather(36)
 
 
 def fizzbuzz(num):
-    # your code here
-    pass
+   if (num % 3 == 0) and (num % 5 == 0): 
+        return "FizzBuzz"
+   elif (num % 3 == 0):
+       return "Fizz"
+   elif (num % 5 == 0): 
+        return "Buzz"
+   else:
+       return num
+   
+fizzbuzz(0)
+fizzbuzz(15)
+fizzbuzz(45)
+
 
 def calculator(operation, num1, num2):
     # your code here
